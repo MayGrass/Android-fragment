@@ -5,24 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".F1">
+    tools:context=".F4">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="I am F1"
+        android:text="I am F4"
         android:textSize="24sp"
-        />
-    <TextView
-        android:id="@+id/f1_lottery"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-    <Button
-        android:id="@+id/f1_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Lottery"
         />
 
 
