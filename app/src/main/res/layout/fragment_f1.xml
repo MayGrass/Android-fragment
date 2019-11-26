@@ -31,6 +31,13 @@
         android:text="ChangeTitle"
         android:textAllCaps="false"
         />
+    <Button
+        android:id="@+id/f1_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Control F2 Title"
+        android:textAllCaps="false"
+        />
 
 
 

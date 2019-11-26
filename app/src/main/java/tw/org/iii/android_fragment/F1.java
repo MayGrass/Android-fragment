@@ -22,6 +22,7 @@ public class F1 extends Fragment {
     private TextView lottery;
     private Button btnLottery;
     private Button btnTest2;
+    private Button btnTest3;
     private MainActivity mainActivity;
 
     @Override
@@ -46,6 +47,14 @@ public class F1 extends Fragment {
                 @Override
                 public void onClick(View v) {
                     mainActivity.setMyTitle("Hi, It's a new title");
+                }
+            });
+
+            btnTest3 = mainView.findViewById(R.id.f1_btn3);
+            btnTest3.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mainActivity.getF2().chTitle("New New Title2");
                 }
             });
 

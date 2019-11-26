@@ -37,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
         title.setText(newtitle);
     }
 
+    public F2 getF2() {
+        return f2;
+    }
+
     public void toF1(View view) {
         FragmentTransaction transaction = fmgr.beginTransaction();
         transaction.replace(R.id.container, f1);
